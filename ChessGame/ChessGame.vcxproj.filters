@@ -13,5 +13,74 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{aadb875d-6342-4d2c-afb0-33488a474adb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="board.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="piece.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="piece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\bishopb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\bishopw.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\kingb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\kingw.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\knightb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\knightw.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\pawnb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\pawnw.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\queenb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\queenw.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\rookb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\rookw.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>
