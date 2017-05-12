@@ -7,13 +7,31 @@ Game::Game() {
 
 	resources = new PieceResources("Resources/");
 
-	board.putPiece(new King(&board, resources, sf::Vector2i(4, 1), TeamColor::BLACK));
-	board.putPiece(new Queen(&board, resources, sf::Vector2i(5, 4), TeamColor::BLACK));
-	board.putPiece(new Knight(&board, resources, sf::Vector2i(3, 3), TeamColor::BLACK));
-	board.putPiece(new Rook(&board, resources, sf::Vector2i(5, 2), TeamColor::BLACK));
-	
-	board.putPiece(new King(&board, resources, sf::Vector2i(3, 7), TeamColor::WHITE));
-	board.putPiece(new Bishop(&board, resources, sf::Vector2i(2, 4), TeamColor::WHITE));
+	board.putPiece(new King(&board, resources, sf::Vector2i(4, 0), TeamColor::BLACK));
+	board.putPiece(new Queen(&board, resources, sf::Vector2i(3, 0), TeamColor::BLACK));
+	board.putPiece(new Knight(&board, resources, sf::Vector2i(1, 0), TeamColor::BLACK));
+	board.putPiece(new Knight(&board, resources, sf::Vector2i(6, 0), TeamColor::BLACK));
+	board.putPiece(new Rook(&board, resources, sf::Vector2i(0, 0), TeamColor::BLACK));
+	board.putPiece(new Rook(&board, resources, sf::Vector2i(7, 0), TeamColor::BLACK));
+	board.putPiece(new Bishop(&board, resources, sf::Vector2i(2, 0), TeamColor::BLACK));
+	board.putPiece(new Bishop(&board, resources, sf::Vector2i(5, 0), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(0, 1), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(1, 1), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(2, 1), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(3, 1), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(4, 1), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(5, 1), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(6, 1), TeamColor::BLACK));
+	board.putPiece(new Pawn(&board, resources, sf::Vector2i(7, 1), TeamColor::BLACK));
+
+	board.putPiece(new King(&board, resources, sf::Vector2i(4, 7), TeamColor::WHITE));
+	board.putPiece(new Queen(&board, resources, sf::Vector2i(3, 7), TeamColor::WHITE));
+	board.putPiece(new Knight(&board, resources, sf::Vector2i(1, 7), TeamColor::WHITE));
+	board.putPiece(new Knight(&board, resources, sf::Vector2i(6, 7), TeamColor::WHITE));
+	board.putPiece(new Rook(&board, resources, sf::Vector2i(0, 7), TeamColor::WHITE));
+	board.putPiece(new Rook(&board, resources, sf::Vector2i(7, 7), TeamColor::WHITE));
+	board.putPiece(new Bishop(&board, resources, sf::Vector2i(2, 7), TeamColor::WHITE));
+	board.putPiece(new Bishop(&board, resources, sf::Vector2i(5, 7), TeamColor::WHITE));
 	board.putPiece(new Pawn(&board, resources, sf::Vector2i(0, 6), TeamColor::WHITE));
 	board.putPiece(new Pawn(&board, resources, sf::Vector2i(1, 6), TeamColor::WHITE));
 	board.putPiece(new Pawn(&board, resources, sf::Vector2i(2, 6), TeamColor::WHITE));
